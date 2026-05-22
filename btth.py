@@ -12,6 +12,7 @@ for i in range(staff_quantity):
         continue 
     if day == 0:
         print(f' {full_name} nghỉ cả tháng ko đi làm ngày nào !')
+        continue
     else:
                 
                 print(f"{full_name}:", end= " ")   
